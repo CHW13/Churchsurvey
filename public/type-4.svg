@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#g)"/>
+
+  <!-- left bubble -->
+  <path d="M68 102
+           C68 82, 84 66, 104 66
+           H147
+           C167 66, 183 82, 183 102
+           V132
+           C183 152, 167 168, 147 168
+           H123
+           L96 187
+           V168
+           H104
+           C84 168, 68 152, 68 132
+           Z"
+        fill="rgba(255,255,255,0.14)"/>
+  <!-- chat bubbles -->
+  <path d="M101 101
+           C101 92, 109 85, 118 85
+           H150
+           C159 85, 167 92, 167 101
+           V118
+           C167 127, 159 134, 150 134
+           H136
+           L123 145
+           V134
+           H118
+           C109 134, 101 127, 101 118
+           Z"
+        fill="#fff" opacity="0.9"/>
+
+  <!-- right small bubble -->
+  <circle cx="186" cy="92" r="28" fill="rgba(255,255,255,0.22)"/>
+  <circle cx="178" cy="86" r="6" fill="#fff" opacity="0.9"/>
+  <circle cx="194" cy="86" r="6" fill="#fff" opacity="0.9"/>
+</svg>
+

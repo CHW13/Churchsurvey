@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#g)"/>
+  <circle cx="128" cy="128" r="78" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="128" cy="128" r="56" fill="rgba(255,255,255,0.10)"/>
+  <!-- compass needle -->
+  <path d="M128 63 L150 112 L128 128 L106 112 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M128 193 L106 144 L128 128 L150 144 Z" fill="#ffffff" opacity="0.60"/>
+  <!-- cross lines -->
+  <path d="M128 70 V186" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <path d="M70 128 H186" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+  <!-- subtle ring -->
+  <circle cx="128" cy="128" r="78" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.18"/>
+</svg>
+
