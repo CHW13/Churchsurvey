@@ -224,6 +224,7 @@ const handleSaveImage = useCallback(async () => {
                           value={opt.value}
                           checked={currentAnswer === opt.value}
                           onChange={() => handleSelect(opt.value)}
+                          onClick={() => handleSelect(opt.value)}
                           className="sr-only"
                         />
                         <div className="flex items-center justify-between gap-3">
