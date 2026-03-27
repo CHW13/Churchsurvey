@@ -431,7 +431,7 @@ const handleSaveImage = useCallback(async () => {
         <footer className="mt-20 border-t border-black/5 pt-8 text-center text-xs text-black/40 dark:border-white/5 dark:text-white/40">
           <div className="mb-2 flex flex-wrap justify-center gap-x-4 gap-y-1 font-medium">
             <span>기획: 권혜리</span>
-            <span>구성: min.J</span>
+            <span>구성: m.in.J</span>
             <span>개발: 최현우</span>
             <span>검수: 박라영, 원근재</span>
           </div>
